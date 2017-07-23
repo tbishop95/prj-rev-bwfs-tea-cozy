@@ -1,0 +1,138 @@
+body {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  z-index: 1;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 700px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+nav {
+  text-align: right;
+}
+
+/*Content*/
+.content {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  z-index: 10;
+}
+/*Content - Mission*/
+
+#mission {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 700px;
+  background-image: url(/Users/thomasbishop/Documents/Projects/teacozy/resources/images/img-mission-background.jpg);
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: 0px;
+}
+
+/*Content - Featured Teas*/
+#featured {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img{
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.tea span{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Content - Locations Teas*/
+#locations {
+  margin-top: 70px;
+  padding-top: 70px;
+  height: 500px;
+  background-image: url(/Users/thomasbishop/Documents/Projects/teacozy/resources/images/img-locations-background.jpg);
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  opacity: 1px;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location span {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+/*Content - Footer*/
+.storeinfo {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+}
